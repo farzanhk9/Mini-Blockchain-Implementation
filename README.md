@@ -14,7 +14,7 @@ class Block:
 
     def calculate_hash(self):
         block_string = json.dumps({
-            "index": self.index,
+            "index": self.indexx,
             "timestamp": self.timestamp,
             "data": self.data,
             "previous_hash": self.previous_hash,
